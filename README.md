@@ -7,6 +7,7 @@ To run :
         generalized       : python calculate_htl_tag_frequency.py HTML_FILE_NAME
         
 Sample O/P run on Wikipedia page (https://en.wikipedia.org/wiki/Main_Page):
+
      (1).  (u'a', 318)
  	 (2).  (u'li', 208)
  	 (3).  (u'div', 96)
