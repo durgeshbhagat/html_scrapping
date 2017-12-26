@@ -28,8 +28,6 @@ for tag in tag_list:
 
 tag_freq = tag_dict.items()
 tag_freq.sort(key =  lambda item : item[-1], reverse= True)
-for tag,freq in tag_freq:
-    #print tag
-    print '<%s> : %d' %(tag, freq)
-
-
+for i,cur_tag_freq in enumerate(tag_freq,1):
+    #print cur_tag_freq
+    print ' \t (%d).  %s' %(i, cur_tag_freq)
