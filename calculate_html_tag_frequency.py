@@ -1,7 +1,10 @@
 """
 python script to print html tag and their frquency in decending order
 
-To Run : python calculate_htl_tag_frequency.py HTML_FILE_NAME
+To Run : 
+       
+        for given example : python calculate_html_tag_frequency.py Wikipedia_the_free_encyclopedia.htmls
+        generalized       : python calculate_htl_tag_frequency.py HTML_FILE_NAME
 """
 import sys
 
